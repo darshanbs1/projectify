@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='style3.css') }}" rel="stylesheet"/>
+    <title>Login Page</title>
+</head>
+
+<body>
+    <center>
+        <h1>Successfully LoggedIn {{name}}</h1>
+        <br>
+        <form method="POST">
+            <input type="EventName" name="EventName" placeholder="enter your Event name">
+            <br>
+            <br>
+            <input type="link1" name="link1" placeholder="Enter link1">
+            <br>
+            <br>
+            <input type="link2" name="link2" placeholder="Enter link2">
+            <br>
+            <br>
+            <input type="submit" name="submit">
+            <br>
+        </form>
+    </center>
+</body>
+
+</html>

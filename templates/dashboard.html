@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='style1.css') }}" rel="stylesheet"/>
+    <link rel="stylesheet" href="./signup.html">
+    <script src="https://kit.fontawesome.com/18280510b2.js" crossorigin="anonymous"></script>
+    <title>superlink</title>
+</head>
+
+<body style="background-image: url('https://p4.wallpaperbetter.com/wallpaper/410/867/750/vector-forest-sunset-forest-sunset-forest-wallpaper-preview.jpg'); background-repeat:no-repeat; background-size: 100% 100%;">
+    <header class="head">
+            <nav class="navbar">
+                <div class="container">
+                    <h1 class="logo  lg-heading  text-light">SUPER-LINK</h1>
+                    
+                </div>
+            </nav>
+    </header>
+
+    <div class="header-content">
+        <h1 class="lg-heading  text-light">MAKE YOUR OWN LINK ZONE</h1>
+        <a href="#"  class="btn  btn-pri text-green md-heading">LOG-IN</a>
+        <p class="text-light">or</p>
+        <a href="{{ url_for('signup') }}"   class="btn  btn-pri text-green md-heading">SIGN UP</a>
+    </div>
+
+</body>
+</html>
